@@ -1,167 +1,307 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Anulunko Chukwuebuka Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chukwuebuka Anulunko - Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pi-animation.css">
+    <link rel="stylesheet" href="css/engineering-qa.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="js/engineering-qa.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Chukwuebuka's Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <h1>Chukwuebuka Anulunko, B.Eng, GMNSE</h1>
+            <p>Embedded Systems Engineer | Mechatronics Engineer | Data Analyst | Generative AI</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/chukwuebuka-anulunko-b-eng-gmnse-147626236" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://huggingface.co/EAV123" target="_blank" title="HuggingFace"><i class="fas fa-robot"></i></a>
+            </div>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+        <div class="hero-image">
+            <div class="code-container">
+                <div class="fibonacci-container">
+                    <!-- Signal containers will be added via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Anulunko Chukwuebuka<br />
-						 Portfolio</h1>
-						<p>Welcome to my portfolio! I am a Mechatronics Engineer specializing in Robotics, Embedded Systems, and Machine Learning. Explore my projects and experience to learn more about my work and expertise. <a href="https://www.linkedin.com/in/chukwuebuka-anulunko-147626236/">linkedin</a>,
-							<a href=https://huggingface.co/EAV123">huggingface</a>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+    <section class="about" id="about-details">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="images/profile.jpg" alt="Chukwuebuka Anulunko">
+                </div>
+                <div class="about-text">
+                    <p>I am passionate about both data and robotics. Robots rely on data, and I analyze this data to provide essential solutions. I'm an Embedded Systems Engineer and Mechatronics Engineer with expertise in Data Analysis and Generative AI.</p>
+                    <p>With a Bachelor's degree in Mechatronics, Robotics, and Automation Engineering from Afe Babalola University, I combine theoretical knowledge with practical implementation skills in both hardware and software domains.</p>
+                    <p>I have experience in developing intricate models and prototypes using advanced 3D design and printing techniques, resulting in reduced production time and material costs. My expertise in Arduino and Raspberry Pi platforms has significantly contributed to embedded systems projects, improving system performance and functionality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Ebuka's Portfolio</a>
-					</header>
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Data Analysis</h3>
+                    <ul>
+                        <li>Customer Insight</li>
+                        <li>Dashboard Building</li>
+                        <li>Data Analytics</li>
+                        <li>Statistical Analysis</li>
+                        <li>Data Visualization</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Software</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Tableau</li>
+                        <li>Power BI</li>
+                        <li>Excel</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Machine Learning</h3>
+                    <ul>
+                        <li>TensorFlow</li>
+                        <li>PyTorch</li>
+                        <li>Generative AI</li>
+                        <li>Data Modeling</li>
+                        <li>Predictive Analytics</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Engineering</h3>
+                    <ul>
+                        <li>Arduino</li>
+                        <li>Raspberry Pi</li>
+                        <li>3D Design</li>
+                        <li>Embedded Systems</li>
+                        <li>Mechatronics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-							<li><a href="generic.html">Profile</a></li>
-							
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/chukwuebuka-anulunko-147626236/" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://huggingface.co/EAV123" class="icon brands alt">&#129303;</a></li>
-							<li><a href="https://github.com/OptimusCoderr" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/ai_resume.png" alt="AI-Powered Resume Analyzer">
+                    </div>
+                    <div class="project-info">
+                        <h3>AI-Powered Resume Analyzer & Ranker</h3>
+                        <p>Developed an intelligent recruitment tool that automates resume classification and candidate ranking using BERT-based NLP and DeepSeek's semantic matching. The system streamlines hiring by extracting key details (skills, experience, location) and prioritizing top candidates with 86.8% accuracy. Achieved 86.7% F1-score with fine-tuned Hugging Face Transformer model, integrated DeepSeek API for smart candidate ranking, and optimized training on NVIDIA T4 GPUs. Reduced training loss by 52% (0.57 → 0.27) over 5 epochs.</p>
+                        <div class="project-tags">
+                            <span>PyTorch</span>
+                            <span>BERT</span>
+                            <span>Hugging Face</span>
+                            <span>Streamlit</span>
+                            <span>DeepSeek API</span>
+                            <span>NLP</span>
+                            <span>Deep Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/OptimusCoderr/ML_TUT/blob/main/resume-analyser.ipynb" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://huggingface.co/spaces/EAV123/Resume_Analyzer_and_Ranker" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/robotic_hand.png" alt="Prosthetic Arm Development">
+                    </div>
+                    <div class="project-info">
+                        <h3>Prosthetic Arm Development Using EMG Sensors</h3>
+                        <p>Developed a functional and versatile 3D-printed prosthetic arm with 14 degrees of freedom (DOF) controlled by myoelectric signals. Designed and fabricated 19 individual 3D-printed components using PLA, implemented servo motors (MG90S) for natural hand movements, and developed an EMG sensor system with Fast Fourier Transform (FFT) for signal processing. Achieved significant cost reduction compared to commercial prosthetics while maintaining competitive performance in terms of DOF, actuator count, and usability.</p>
+                        <div class="project-tags">
+                            <span>Arduino</span>
+                            <span>EMG Sensors</span>
+                            <span>3D Printing</span>
+                            <span>SolidWorks</span>
+                            <span>Signal Processing</span>
+                            <span>Mechatronics</span>
+                            <span>FFT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Documentation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/eye.png" alt="Glaucoma Detection Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Glaucoma Detection Using Deep Learning</h3>
+                        <p>Developed a high-accuracy deep learning model (93.84% test accuracy) using DenseNet201-based CNN to detect glaucoma from 7,000+ retinal fundus images from the Eyepacs-AIROGS-Light dataset. Applied advanced preprocessing techniques including ROI extraction, contrast enhancement, and data augmentation. Achieved strong metrics: 91.91% precision, 92.32% recall, and 0.9847 AUC. Future work includes expanding dataset diversity, testing alternative architectures, and developing a deployable web/mobile application.</p>
+                        <div class="project-tags">
+                            <span>TensorFlow</span>
+                            <span>DenseNet201</span>
+                            <span>OpenCV</span>
+                            <span>Medical AI</span>
+                            <span>Computer Vision</span>
+                            <span>Model Optimization</span>
+                            <span>Data Preprocessing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/OptimusCoderr/ML_TUT/blob/main/eav-glaucoma-detection-fudndus-pytorch.ipynb" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/ai_hacking.png" alt="SQL Injection Detection System">
+                    </div>
+                    <div class="project-info">
+                        <h3>Hybrid SQL Injection Detection System</h3>
+                        <p>Developed a comprehensive SQL injection detection system using a hybrid approach that combines rule-based filtering with machine learning (Random Forest, SVM) and deep learning (CNN, LSTM) models in an ensemble framework. The system achieved 99.53% accuracy, 99.96% precision, and 98.78% recall on a dataset of 30,919 labeled SQL queries. Successfully detected both simple and sophisticated SQL injection attacks while effectively handling class imbalance through the ensemble approach.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Keras</span>
+                            <span>Scikit-learn</span>
+                            <span>NLTK</span>
+                            <span>CNN</span>
+                            <span>LSTM</span>
+                            <span>Cybersecurity</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/OptimusCoderr/ML_TUT/blob/main/sql-injection-detection.ipynb" target="_blank"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="#" class="btn">View More Projects</a>
+            </div>
+        </div>
+    </section>
 
-				<!-- Main -->
-					<div id="main">
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Data Analytics and Visualization Job Simulation</h3>
+                        <h4>Accenture North America (Forage)</h4>
+                        <p class="timeline-date">July 2024 - August 2024</p>
+                        <p>Completed a simulation focused on advising a hypothetical social media client as a Data Analyst. Cleaned, modelled and analyzed 7 datasets to uncover insights into content trends to inform strategic decisions. Prepared a PowerPoint deck and video presentation to communicate key insights for the client and internal stakeholders.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Data Analytics Consulting Virtual Internship</h3>
+                        <h4>KPMG AU (Forage)</h4>
+                        <p class="timeline-date">July 2024 - August 2024</p>
+                        <p>Completed a simulation focused on advising a client on customer targeting with the Data, Analytics & Modelling team. Assessed data quality and completeness in preparation for analysis. Analyzed data to target high-value customers based on demographics and attributes. Developed dashboards to communicate findings with visuals.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Intern</h3>
+                        <h4>National Centre for Artificial Intelligence and Robotics</h4>
+                        <p class="timeline-date">February 2023 - December 2023</p>
+                        <p>Innovatively developed intricate models and prototypes using advanced 3D design and printing techniques, resulting in a 20% reduction in production time and a 15% decrease in material costs. Demonstrated exceptional expertise in Arduino and Raspberry Pi platforms, significantly contributing to projects involving embedded systems, leading to a 30% improvement in system performance and functionality.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Engineer Intern</h3>
+                        <h4>DOT Matrix Engineering Ltd</h4>
+                        <p class="timeline-date">June 2022 - September 2022</p>
+                        <p>Spearheaded the installation of network cables, guaranteeing seamless connectivity and functionality across diverse environments. Executed termination, testing, and troubleshooting procedures for CAT6 cables, ensuring uninterrupted high-speed data transmission and enhancing network reliability by about 80%.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Maintenance Engineer</h3>
+                        <h4>Federal Capital Territory Administration</h4>
+                        <p class="timeline-date">July 2021 - June 2022</p>
+                        <p>Oversaw the installation of new road signs and conducted meticulous maintenance on existing infrastructure, leading to a 30% improvement in traffic regulation and navigation within the F.C.T. Directed troubleshooting, programming, and maintenance initiatives for traffic lights across the Federal Capital Territory (F.C.T.).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									
-									<h2><a href="https://github.com/OptimusCoderr/ML_TUT/blob/main/CREDIT%20DEFAULT%20DETECTION.ipynb">Credit Default Prediction<br />
-										with Machine Learning</a></h2>
-			
-									<p>Developed a state-of-the-art deep learning model using TensorFlow to predict credit default risk, achieving an impressive 82% accuracy on test data. This project showcases the robustness and efficacy of deep learning techniques in financial analytics.</p>
-								</header>
-								<a href="https://github.com/OptimusCoderr/ML_TUT/blob/main/CREDIT%20DEFAULT%20DETECTION.ipynb" class="image main"><img src="images/finance.jpeg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/OptimusCoderr/ML_TUT/blob/main/CREDIT%20DEFAULT%20DETECTION.ipynb" class="button large">View Project</a></li>
-								</ul>
-							</article>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/OptimusCoderr/ML_TUT/blob/main/glaucoma-densenet201.ipynb">Glaucoma Detection<br />
-										with Computer Vision</a></h2>
-									</header>
-									<a href="https://github.com/OptimusCoderr/ML_TUT/blob/main/glaucoma-densenet201.ipynb" class="image fit"><img src="images/glaucoma.jpeg" alt="" /></a>
-									<p>Developed an innovative computer vision model to detect glaucoma from retinal images, utilizing convolutional neural networks (CNNs) to achieve high accuracy in early diagnosis, aiding in the prevention of vision loss.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/OptimusCoderr/ML_TUT/blob/main/glaucoma-densenet201.ipynb" class="button">View Project</a></li>
-									</ul>
-								</article>
 
-								<article>
-									<header>
-										
-										<h2><a href="https://huggingface.co/spaces/EAV123/CALORIES_DETECTION_APP">Calories Detection App<br />
-										with Gemini Vision Pro</a></h2>
-									</header>
-									<a href="https://huggingface.co/spaces/EAV123/CALORIES_DETECTION_APP" class="image fit"><img src="images/food.jpeg" alt="" /></a>
-									<p>Developed a cutting-edge Calories Detection App using Gemini Vision Pro API, leveraging advanced image recognition and Generative AI techniques to accurately estimate the calorie content of various foods from photos, promoting healthier eating habits.</p>
-									<ul class="actions special">
-										<li><a href="https://huggingface.co/spaces/EAV123/CALORIES_DETECTION_APP" class="button">View Project</a></li>
-									</ul>
-								</article>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>chukwuebukaanulunko@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Abuja, Nigeria</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+2349022527748 (Work)</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/chukwuebuka-anulunko-b-eng-gmnse-147626236" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://huggingface.co/EAV123" target="_blank" title="HuggingFace"><i class="fas fa-robot"></i></a>
+                        <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
-								<article>
-									<header>
-										<h2><a href="https://github.com/OptimusCoderr/medical_chatbot_LLAMA2">Medical Chatbot<br />
-										with LLAMA2 and LangChain</a></h2>
-									</header>
-									<a href="https://github.com/OptimusCoderr/medical_chatbot_LLAMA2" class="image fit"><img src="images/medical.jpeg" alt="Medical Chatbot" /></a>
-									<p>Developed a Medical Chatbot using LLAMA2 and LangChain, designed to provide accurate and reliable medical information to users. This project leverages advanced natural language processing techniques and LangChain for improved conversational capabilities, ensuring effective and context-aware responses to medical queries.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/OptimusCoderr/medical_chatbot_LLAMA2" class="button">View Project</a></li>
-									</ul>
-								</article>
-								
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Anulunko Chukwuebuka Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
 
-								<article>
-									<header>
-				
-										<h2><a href="https://github.com/OptimusCoderr/ML_TUT/blob/main/Natural_Language_Processing_with_RNNs_.ipynb">Natural Language Processing<br />
-										with RNNs</a></h2>
-									</header>
-									<a href="https://github.com/OptimusCoderr/ML_TUT/blob/main/Natural_Language_Processing_with_RNNs_.ipynb" class="image fit"><img src="images/nlp.jpeg" alt="" /></a>
-									<p>Developed a comprehensive tutorial on Natural Language Processing (NLP) using Recurrent Neural Networks (RNNs), demonstrating techniques for text generation, sentiment analysis, and sequence prediction. This project showcases the application of RNNs in various NLP tasks.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/OptimusCoderr/ML_TUT/blob/main/Natural_Language_Processing_with_RNNs_.ipynb" class="button">View Project</a></li>
-									</ul>
-								</article>
-
-							</section>
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p>Lugbe<br />
-								Abuja, Nigeria</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">+2349022527748</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">chukwuebukaanulunko@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/chukwuebuka-anulunko-147626236/" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<li><a href="https://huggingface.co/EAV123" class="icon brands alt">&#129303;</a></li>
-									<li><a href="https://github.com/OptimusCoderr" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <script src="js/main.js"></script>
+</body>
 </html>

@@ -1,0 +1,61 @@
+.pi-visualization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: linear-gradient(145deg, #1a1a1a, #2a2a2a);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.pi-circle {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #3498db;
+    animation: rotate 20s linear infinite;
+}
+
+.pi-digit {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(52, 152, 219, 0.8);
+    opacity: 0;
+    animation: fadeInOut 2s ease-in-out infinite;
+}
+
+#pi-digit-1 { top: 50%; left: 50%; transform: translate(-50%, -50%); animation-delay: 0s; }
+#pi-digit-2 { top: 20%; left: 50%; transform: translate(-50%, -50%); animation-delay: 0.25s; }
+#pi-digit-3 { top: 50%; right: 20%; transform: translate(50%, -50%); animation-delay: 0.5s; }
+#pi-digit-4 { bottom: 20%; left: 50%; transform: translate(-50%, 50%); animation-delay: 0.75s; }
+#pi-digit-5 { top: 50%; left: 20%; transform: translate(-50%, -50%); animation-delay: 1s; }
+#pi-digit-6 { top: 30%; right: 30%; transform: translate(50%, -50%); animation-delay: 1.25s; }
+#pi-digit-7 { bottom: 30%; right: 30%; transform: translate(50%, 50%); animation-delay: 1.5s; }
+#pi-digit-8 { bottom: 30%; left: 30%; transform: translate(-50%, 50%); animation-delay: 1.75s; }
+
+.pi-description {
+    margin-top: 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.pi-description p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0.2; transform: scale(0.8); }
+    50% { opacity: 1; transform: scale(1); }
+}
